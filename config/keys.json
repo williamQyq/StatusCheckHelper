@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "repairstatus",
+    "private_key_id": "f101403030bb021cfb48b40657a1ef1e199530cf",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCezK6LhQMOVnyV\nnVj8BykWxBHEsRcX+S1Csc+JJSQJcJPjHusZaEjcqCc/fVrOkmf30vOo3lVJ0XZq\niHKNuD0lZvxb99a5+Z0PDK6tzAi910ULTGVunlhAujY32idwC7iESiXnSfBLa+2k\nNstNCbM3Um8nbW4nsRbf4U2aPwICB6nvDInvi24z8Mw401b9HgY7PJQIXAvp5sq5\nAORHvoaLsXDNiTRmXJVSwlc59ryKjME89rwTxTs6E/YpfRFMZx6gtoLAbYLGl88W\nMWriZfB622efzNmlpEdkhUFL12q0TSA2+29+R1rSvDQei1g1yse74CNG41z4hzfv\n57d69jq5AgMBAAECggEABmRhaBznriDcWovnGvGsArOhWPg9axyU6Nzo3cGvWTYX\n7TH6NJoSaRfCM6+ss0kTUwzBvDPjPZRR8VDH1q1PwHThq+SL1yLazVIn/mI1XbSV\nKIglLZjwCb6ieSiogtMP9NBExWeAJb26PEHXOLpvGrxwXGc5jR1iDmCT9nq6jpZh\nkUAJErOowL8xCj58qpQSA0a4ZZm3mF4T2lk91/QV/8oUAoc17R4XVpFrwN1O2nzU\nm8WeZXaeYJAygO4yJkngQE8SO+hwDLwDjiKX4EMdT8EZrZ3afCrOjHL07MNvZJ3r\nr383I8OljbNh6qBCXoKS/gpLntYkoMTMuX2kxR10cQKBgQDOLbkIeiwsh9N5oOoz\nHa/2mqMebUG3O7af+hE3jZ1G8+ThrpN0rdPBtVux6agO3CZn/vwMowe34DyEc6EI\n1woRXnuPX3dgc3UXwQnUY1ehs0k2wF3bhzxW3PMELFFNZyEYCcN+d82Jgm0G9H+8\nK/x9Xrv8NGKG7mQOtjg3sd+MEQKBgQDFLBL+gpNV/tkUGtRWYXNuD0sV4jDk6qT/\n/GYfraN4hzGBhU83ubrJg+DMUi562erSRoZw/HFFHQeXMDzt8oZJXscbaRSDIaJW\nmZdMRgEfhVg5H+HhUMt90VF/+9SGbtfkR3pYXlsOku45dZuLA4H1eT5GCj/WeQO1\nQrkkQhgMKQKBgEJF/DY3Xz+pIVb1XJK1tjwklM5Q/FCzxw5BSYt739RQzX+lqAxX\nW7vmWeUkYDr2lPnUwpwlQ3PdhlZk/Jxk0v2mSz1YyHyeYEMUb95vWFnH0X7h8sl/\n/OtG9m6e+DtTLRYW/VoHlG/hFr6nlO+di/mYnACDrjAFLPB1rjho2pyhAoGAI5LA\nGosUaf+Ays/MX4lVehXoRhp5F9P90PGIu05on+ZEWEnk8PjhaloQxMxO9ns6kpWG\ny/u/s+h45h4d4BBRigs/gQKEYORAlb9APNKkgTtdn3DRIAWjsR+CxMR6o4Z8DQOY\nXzkm1IpN0LAXUA1h9Rfa1Ggk/Fz4/kr7fD8wd4ECgYBtw+tiiArkHdrvqjNZ0J7n\n7NSYiuRhNiCLseIo+lBem442RvYPk+TUbmDWgiyB71TI727B7KbhPeU+CTkC9LOk\nxJURN9S7Scj43llJ2Msx/WF2yUM5rQN9aGVgINHYVwNADLG0wSu0Yg4vN0zkYg+5\n3jZDf0/yPuazwJfiHHU54Q==\n-----END PRIVATE KEY-----\n",
+    "client_email": "repairstatus@repairstatus.iam.gserviceaccount.com",
+    "client_id": "108443482215385666509",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/repairstatus%40repairstatus.iam.gserviceaccount.com"
+  }
+  
