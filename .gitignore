@@ -1,2 +1,3 @@
-config/*
+config/keys.json
 *.exe
+*/__pycache__/*
