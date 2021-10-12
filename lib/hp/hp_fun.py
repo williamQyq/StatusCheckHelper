@@ -1,5 +1,6 @@
+from selenium.webdriver.support import expected_conditions
 from lib.module import WebDriverWait, EC, By
-from config.config import DRIVER_WAIT_TIME
+from config.config import DRIVER_WAIT_TIME,KEY_LIST_HP
 
 def GetRepairStatus(driver, sn, order_num):
     # get Service Order Number Element
@@ -55,44 +56,60 @@ def StatusRetrived(driver):
 
 # retrieve hp status table
 def GetStatusTable(driver):
-    res = dict()
+
+    res = dict.fromkeys(KEY_LIST_HP)
     try:
         res['service_order'] = WebDriverWait(driver, DRIVER_WAIT_TIME).until(
             EC.presence_of_element_located(
-                (By.ID, "ctl00_Content_ctl00_rptOrderList_ctl00_lnkCSO")
+                (By.XPATH, "//*[contains(@id,'ctl00_Content_ctl00_rptOrderList_ctl00_') and contains(@id,'CSO')]")
             )
         ).text
+    except:
+        res['service_order'] = "NA"
+    
+    try:
         res['product'] = WebDriverWait(driver, DRIVER_WAIT_TIME).until(
             EC.presence_of_element_located(
                 (By.ID, "ctl00_Content_ctl00_rptOrderList_ctl00_lblModel")
             )
         ).text
-
+    except:
+        res['product'] = "NA"
+    
+    try:
         res['service_event'] = WebDriverWait(driver, DRIVER_WAIT_TIME).until(
             EC.presence_of_element_located(
                 (By.ID, "ctl00_Content_ctl00_rptOrderList_ctl00_lblService")
             )
         ).text
+    except:
+        res['service_event'] = "NA"
 
+    try:
         res['order_status'] = WebDriverWait(driver, DRIVER_WAIT_TIME).until(
             EC.presence_of_element_located(
                 (By.ID, "ctl00_Content_ctl00_rptOrderList_ctl00_lblStatus")
             )
         ).text
+    except:
+        res['order_status'] = "NA"
 
+    try:
         res['est_deli_date'] = WebDriverWait(driver, DRIVER_WAIT_TIME).until(
             EC.presence_of_element_located(
                 (By.ID, "ctl00_Content_ctl00_rptOrderList_ctl00_lblDelivery")
             )
         ).text
-
+    except:
+        res['est_deli_date'] = "NA"
+    
+    try:
         res['track'] = WebDriverWait(driver, DRIVER_WAIT_TIME).until(
             EC.presence_of_element_located(
-                (By.XPATH, "//span[@id='ctl00_Content_ctl00_rptOrderList_ctl00_lblTracking']")
+                (By.ID, "ctl00_Content_ctl00_rptOrderList_ctl00_lblTracking")
             )
         ).text
-        print(res['track'])
     except:
-        print("*Failure*:Cannot retrieve status table.")
+        res['track'] = "NA"
 
     return res

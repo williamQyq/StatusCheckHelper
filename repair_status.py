@@ -22,7 +22,7 @@ def main():
 
     # out put result
     print("Finished.")
-
+    return
 
 if __name__ == '__main__':
     main()
